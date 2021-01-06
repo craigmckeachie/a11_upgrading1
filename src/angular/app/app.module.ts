@@ -37,8 +37,9 @@ angular
         }
       ],
       {
-        useHash: true
-      }
+    useHash: true,
+    relativeLinkResolution: 'legacy'
+}
     )
   ],
   entryComponents: [WidgetComponent],
